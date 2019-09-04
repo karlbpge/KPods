@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/PGEDigitalCatalyst/PGEUserFeedback'
     s.license          = { :type => 'PGE', :file => 'LICENSE.md' }
     s.author           = { 'BrandonNott' => 'b1nf@pge.com' }
-    s.source           = { :git => 'https://github.com/PGEDigitalCatalyst/PGEUserFeedback.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/PGEDigitalCatalyst/PGEUserFeedback.git', :commit => '689b1dd597388cc2e2ecfadc5e8e0253bc67226b' }
     s.ios.deployment_target = '12.0'
     s.source_files = 'PGEUserFeedback/**/*{c,h,hh,m,mm,swift}'
     s.resource_bundles = {

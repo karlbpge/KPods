@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/PGEDigitalCatalyst/PGEMaps'
     s.license          = { :type => 'PGE', :file => 'LICENSE.md' }
     s.author           = { 'johnngoi' => 'j2nw@pge.com' }
-    s.source           = { :git => 'https://github.com/PGEDigitalCatalyst/PGEMaps.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/PGEDigitalCatalyst/PGEMaps.git', :commit => '3041dfa251d99a07d176f5bf5fa1c26c91a5ae13' }
     s.ios.deployment_target = '12.0'
     s.source_files = 'PGEMaps/**/*{c,h,hh,m,mm,swift}'
     s.resource_bundles = {

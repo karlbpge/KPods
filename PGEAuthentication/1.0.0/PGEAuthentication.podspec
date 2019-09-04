@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/PGEDigitalCatalyst/PGEAuthentication'
     s.license          = { :type => 'PGE', :file => 'LICENSE.md' }
     s.author           = { 'johnngoi' => 'j2nw@pge.com' }
-    s.source           = { :git => 'https://github.com/PGEDigitalCatalyst/PGEAuthentication.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/PGEDigitalCatalyst/PGEAuthentication.git', :commit => '480128975a18a9e7a8cd0b74435f9ec9ec2f3002' }
     s.ios.deployment_target = '12.0'
     s.source_files = 'PGEAuthentication/**/*{c,h,hh,m,mm,swift}'
     s.resource_bundles = {
