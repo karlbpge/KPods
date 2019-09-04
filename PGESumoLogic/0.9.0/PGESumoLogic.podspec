@@ -6,6 +6,6 @@ Pod::Spec.new do |s|
   s.authors = { 'karlbpge' => 'karlbpge@pge.com' }
   s.source = { :git => 'https://github.com/PGEDigitalCatalyst/PGESumoLogic', :tag => '0.9.0' }
   s.source_files = 'PGESumoLogic/PGESumoLogic/Models/*.swift', 'PGESumoLogic/PGESumoLogic/Services/*.swift'
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
   s.dependency 'PGECore'
 end
